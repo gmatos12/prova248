@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Univille</title>
-
 </head>
 
 <body>
+    
+    <div id="imagem">
 
     <center>
     <br>
-    <img src="img/univillelogo.png" width="100px" height="100px">
+    <img src="img/univillelogo.png" alt="Univille" width="100px" height="100px" usemap="#univille">
+    <map id="univille" name="univille">
+        <area shape="rect" coords="0,0,100,100" href="https://www.univille.edu.br/" target="_blank">
+    </map>
     </center>
+
+    </div>
 
     <h1 align="center">UNIVILLE</h1>
 
     <hr size="2">
 
     <br>
+
     <form action="/submit" method="post" align="center">
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
     
         <input type="submit" value="Enviar">
       </form>
+
     <br>
 
     <hr size="2">
-    
     
     <center>
     <br>
